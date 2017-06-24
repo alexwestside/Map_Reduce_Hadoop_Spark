@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfc41434-1381-433d-8a6d-f49009c97761" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapper_2_dstinct_values_v.1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reducer_2_distinct_values_v.1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reducer_2_distinct_values_v.2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reducer_distinct_values_v.1.py" afterPath="$PROJECT_DIR$/reducer_distinct_values_v.1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test" afterPath="$PROJECT_DIR$/test" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,16 +21,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="map.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="reduce.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reduce.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,21 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="combiner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/combiner.py">
+      <file leaf-file-name="reducer_2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reducer_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="in_mapper_combiner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/in_mapper_combiner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reducer_distinct_values_v.1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reducer_distinct_values_v.1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reducer_distinct_values_v.1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -98,11 +81,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mapper_2_dstinct_values_v.1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapper_2_dstinct_values_v.1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer_2_distinct_values_v.1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reducer_2_distinct_values_v.1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer_2_distinct_values_v.2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reducer_2_distinct_values_v.2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="615">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="48" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -133,8 +146,11 @@
         <option value="$PROJECT_DIR$/reducer_3.py" />
         <option value="$PROJECT_DIR$/Combiner_2.py" />
         <option value="$PROJECT_DIR$/mapper_dstinct_values_v.1.py" />
-        <option value="$PROJECT_DIR$/test" />
         <option value="$PROJECT_DIR$/reducer_distinct_values_v.1.py" />
+        <option value="$PROJECT_DIR$/mapper_2_dstinct_values_v.1.py" />
+        <option value="$PROJECT_DIR$/test" />
+        <option value="$PROJECT_DIR$/reducer_2_distinct_values_v.1.py" />
+        <option value="$PROJECT_DIR$/reducer_2_distinct_values_v.2.py" />
       </list>
     </option>
   </component>
@@ -572,14 +588,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/combiner2.py" />
-    <entry file="file://$PROJECT_DIR$/reduce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/combiner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -596,15 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reducer_2.py" />
-    <entry file="file://$PROJECT_DIR$/in-mapper_combiner_v.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Combiner_2.py" />
     <entry file="file://$PROJECT_DIR$/map.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -614,10 +613,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reducer_3.py">
+    <entry file="file://$PROJECT_DIR$/reduce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reducer_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapper_2_dstinct_values_v.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reducer_distinct_values_v.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -630,18 +653,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test">
+    <entry file="file://$PROJECT_DIR$/reducer_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reducer_distinct_values_v.1.py">
+    <entry file="file://$PROJECT_DIR$/in-mapper_combiner_v.2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reducer_2_distinct_values_v.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reducer_2_distinct_values_v.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding />
         </state>
       </provider>
