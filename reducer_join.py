@@ -1,8 +1,5 @@
 # encoding=utf-8
 
-
-
-
 # a = """user1	query:gugol
 #     user1	url:google.ru
 #     user2	query:stepic
