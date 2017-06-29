@@ -28,6 +28,7 @@ def mapper():
                 D.get(line[0])[line1[0]].append(line1[1])
     return D
 
+
 def reducer(D):
     L = list()
     for key in D:
