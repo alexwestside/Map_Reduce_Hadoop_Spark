@@ -8,7 +8,6 @@ num = None
 
 for line in sys.stdin:
     line = line.strip().split('\t')
-    # line1 = line[0].split('#')
     if doc is None:
         doc = line[0].split('#')[0]
         num = line[0].split('#')[1]
