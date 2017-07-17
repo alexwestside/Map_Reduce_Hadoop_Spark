@@ -28,4 +28,4 @@ for line in sys.stdin:
 val = D.values()
 ln = len(list(D.values())[0])
 for i in range(0, ln if ln > 1 else 1):
-    print(list(D.keys())[0] + '#' + (str(n) if ln < 2 else str(i + 1)) + '\t' + list(val[0][i] + '\t' + str(ln))
+    print(list(D.keys())[0] + '#' + (str(n) if ln < 2 else str(i + 1)) + '\t' + list(val[0][i] + '\t' + str(ln)))
