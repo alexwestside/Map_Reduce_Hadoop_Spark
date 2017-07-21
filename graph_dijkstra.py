@@ -121,10 +121,13 @@ import sys
 #
 
 n = 0
-queue = []
-visit = []
+Q = []
+V = []
 stack = []
 L1 = []
+L = []
+tmp = 0
+res = 0
 data = ('5 10', '1 2 10', '1 3 5', '2 3 2', '2 4 1', '3 2 3', '3 4 9', '3 5 2', '4 5 4', '5 1 7', '5 4 6', '1 4')
 for line in data:
     line = line.strip().split(' ')
@@ -146,11 +149,28 @@ for line in data:
 print(matrix)
 print(start)
 print(end)
+print(stack)
+V.append(start)
+while len(V) != 0:
+    if len(Q) == 0 or Q[0] not in V:
+        for i in range(0, nodes):
+            if matrix[i][start] != 0:
+                Q = list(str(i)) + Q
+        if Q[0] not in V:
+            V.append(Q[0])
+            tmp += matrix[int(Q[0])][start]
+            if str(end) in V:
+                if res == 0 or res > tmp:
+                    res = tmp
+                    V = V[:len(V) - 1]
+                    Q = Q[1:]
+        else:
+            V = V[:len(V) - 1]
+        start = int(Q[0])
+        Q = Q[1:]
+    else:
+        Q = Q[1:]
+        start = int(Q[0])
 
 
 
-
-
-    pass
-
-# print(L)
